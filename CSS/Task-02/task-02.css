@@ -1,0 +1,29 @@
+#container{
+    margin-right: 25px;
+    margin-left: 25px;
+}
+nav{
+    background-color: darkblue;
+    width: 1600px;
+    height: 15px;
+    margin-bottom: 5px;
+}
+aside{
+    background-color: purple;
+    display: inline-block;
+    height: 200px;
+    width: 250px;
+
+}
+section{
+    display: inline-block;
+    background-color: green;
+    height: 200px;
+    width: 1330px;
+    margin-left: 15px;
+}
+footer{
+    background-color: blue;
+    width: 1600px;
+    height: 15px;
+}
