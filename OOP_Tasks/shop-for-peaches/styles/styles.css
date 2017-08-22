@@ -1,0 +1,42 @@
+#container{
+    border: 2px solid black;
+    width: 35%;
+    margin: auto;
+    background-color: peachpuff;
+}
+#container>h2{
+    font-size: 30px;
+    color: rebeccapurple;
+    text-align: center;
+}
+#container div>img{
+    height: 100px;
+    vertical-align: middle;
+}
+#container div{
+    border: 2px solid green;
+    padding: 20px 0 20px 20px;
+}
+#container div p{
+    display: inline;
+    font-size: 2em;
+    font-weight: bolder;
+    margin-right: 20px;
+}
+#peach-details{
+    border: 2px solid black;
+    width: 35%;
+    margin: auto;
+    background-color: peachpuff;
+}
+#peach-details>img{
+    width: 40%;
+    float: left;
+}
+#peach-details>h3{
+    text-align: center;
+    display: inline;
+}
+#peach-details>p{
+    display: inline-block;
+}
