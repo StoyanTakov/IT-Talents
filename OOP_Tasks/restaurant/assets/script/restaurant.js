@@ -2,7 +2,12 @@ function extend(constructor1, constructor2) {
     constructor1.prototype = Object.create(constructor2.prototype);
     constructor1.prototype.constructor = constructor1;
 }
-
+function beginningOfDivWrapper(){
+    document.write("<div id=wrapper>");
+}
+function closingDivWrapper(){
+    document.write("</div>");
+}
 function Restaurant(name) {
     this.name = name;
     this.waiters = [];
@@ -152,7 +157,7 @@ function VegiFood(name,photo,description){
     Food.call(this,name,photo,description);
 }
 extend(VegiFood,Food);
-
+beginningOfDivWrapper();
 var beSo = new Restaurant("Be So");
 var waiter1 = new Waiter("Ivan",11);
 var waiter2 = new Waiter("Ivan 2",10);
@@ -187,3 +192,4 @@ beSo.addVegiFood(sandwitch);
 beSo.addVegiFood(salata);
 beSo.addVegiFood(burgerDelight);
 beSo.order(false);
+closingDivWrapper();
