@@ -1,0 +1,26 @@
+#wrapper {
+    border: 1px solid black;
+    margin: auto;
+    height: 200px;
+    width: 500px;
+    padding: 10px;
+}
+
+label {
+    margin-left: 20%;
+}
+
+input,
+button,
+select {
+    margin-top: 20px;
+}
+
+button,
+select {
+    margin-left: 40%;
+}
+
+span {
+    display: none;
+}
